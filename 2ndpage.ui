@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1024</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1024</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Database</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1001</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox { 
+     border: 2px solid gray; 
+     border-radius: 20px; 
+ background-color: rgba( 219, 255, 70,50%)
+
+ }</string>
+    </property>
+    <property name="title">
+     <string>අනෙකුත් විස්තර </string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit_25">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>34</y>
+       <width>251</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ආයතනය ආරම්භ කරන වේලාව </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_26">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>74</y>
+       <width>251</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>70</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ආයතනය අවසන්  කරන වේලාව </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>110</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>පිරිමි සේවක සංඛ්‍යාව</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_27">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>114</y>
+       <width>251</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_28">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>154</y>
+       <width>251</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>150</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>කාන්තා සේවක සංඛ්‍යාව</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>30</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>රාත්‍රී කාලයේ ක්‍රියාකාරී රාජ්‍ය ආයතන </string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>30</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_21">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>90</y>
+       <width>211</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>රාත්‍රී කාලයේ ක්‍රියාකාරී පුද්ගලික  ආයතන </string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_5">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>90</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>1001</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox { 
+     border: 2px solid gray; 
+     border-radius: 20px; 
+ background-color: rgba( 219, 255, 70,50%)
+
+ }</string>
+    </property>
+    <property name="title">
+     <string>මර්මස්ථාන පිලිබද </string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit_29">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>24</y>
+       <width>251</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>මර්මස්ථාන සංඛ්‍යාව</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_30">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>64</y>
+       <width>251</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>60</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>නම </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_19">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>100</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>සිදුවන කාර්‍යය </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_31">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>104</y>
+       <width>251</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_32">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>144</y>
+       <width>251</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_22">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>140</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>පිහිටි ස්ථානය </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_12">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>260</y>
+       <width>251</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_13">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>300</y>
+       <width>251</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_6">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>180</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>340</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>220</y>
+       <width>61</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>තනතුර </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>180</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ප්‍රධානියාගේ නම </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>300</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>පුද්ගලික  දුරකතන අංකය </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>260</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>රාජකාරි දුරකතන අංකය </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>340</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ලිපිනය </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_11">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>220</y>
+       <width>251</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>190</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>150</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>පුද්ගලික  දුරකතන අංකය </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_14">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>150</y>
+       <width>251</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_15">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>110</y>
+       <width>251</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>110</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>රාජකාරි දුරකතන අංකය </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_7">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>30</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>70</y>
+       <width>61</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>තනතුර </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>30</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ප්‍රධාන ආරක්ශක නිලධාරියාගේ  නම </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>190</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ලිපිනය </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_16">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>70</y>
+       <width>251</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>270</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton:hover
+{
+   border-radius: 5px; 
+}
+QPushButton:hover
+{
+   background-color:rgb( 234, 234, 234 );
+}</string>
+     </property>
+     <property name="text">
+      <string>දත්ත ඇතුලු කරන්න </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>330</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton:hover
+{
+   border-radius: 5px; 
+}
+QPushButton:hover
+{
+   background-color:rgb( 234, 234, 234 );
+}</string>
+     </property>
+     <property name="text">
+      <string>මුල් පිටුවට </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>270</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton:hover
+{
+   border-radius: 5px; 
+}
+QPushButton:hover
+{
+   background-color:rgb( 234, 234, 234 );
+}</string>
+     </property>
+     <property name="text">
+      <string>පසුගිය පිටුවට </string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
